@@ -30,7 +30,7 @@ fahrenheitInput.addEventListener('input',function(){
 
 //kelvin to celsius/fahrenheit
 kelvinInput.addEventListener('input', function(){
-    let kel= parseFloat(celsiusInput.value)
+    let kel= parseFloat(kelvinInput.value)
     let cel= kel-273.15
     let fahr= (kel-273.15)*(9/5)+32
 
